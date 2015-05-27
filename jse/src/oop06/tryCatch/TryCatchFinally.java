@@ -7,7 +7,7 @@ package oop06.tryCatch;
  */
 public class TryCatchFinally {
 	public static void main(String[] args) {
-		//try{}catch(){}finally{}
+	//  try{}catch(){}finally{}
 		try{
 			System.out.println("Try 내부 메소드 실행중...");
 		}catch(Exception ex){
