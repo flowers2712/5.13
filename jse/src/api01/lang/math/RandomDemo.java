@@ -1,4 +1,4 @@
-package ap101.lang.math;
+package api01.lang.math;
 
 import java.util.Scanner;
 
