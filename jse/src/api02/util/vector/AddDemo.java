@@ -27,6 +27,11 @@ public class AddDemo {
 		 배열에서 쓰는 length() 가 아니라
 		 size() 를 쓴 것에 주의 !!!
 		 */
+		/*
+		 배열이 인댁스가 0부터 시작하는 것처럼
+		 백터도 인댁스가 0부터 시작합니다.
+		 그래서 아래 예제에서 i+1 로 줌.
+		 */
 		for(int i=0;i<vec.size();i++){
 			System.out.println("백터에 들어있는"
 					+(i+1)+"번째 요소는"
