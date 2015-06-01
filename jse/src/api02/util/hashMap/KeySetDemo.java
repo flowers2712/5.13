@@ -10,11 +10,17 @@ import java.util.Set;
 public class KeySetDemo {
 	public static void main(String[] args) {
 		Map map = new HashMap();
+		/*
+		 맵에서 데이터를 추가하는 방법
+		 */
 		//new Integer(98) 는 숫자타입이 아닌 객체 98 임
 		map.put("김연아", new Integer(98));
 		map.put("아사다마오", new Integer(60));
 		map.put("소트니", new Integer(30));
 		
+		/*
+		 맵에서 데이터를 읽어들이는 방법
+		 */
 		Set set = map.entrySet();
 		Iterator it = set.iterator();
 		
