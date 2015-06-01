@@ -70,7 +70,7 @@ public class MemberServiceImpl implements MemberService {
 		 필드에 선언해준다.
 		 */
 		System.out.println("맵에 담긴 ID :" + map.get("id"));
-		if(!map.containsKey("id")){
+		if(!map.containsKey("id") || !(map.get("password").equals(password))){
 			System.out.println("입력하신 ID 는 존재하지 않습니다."
 					+ "다시 입력하세요.");
 		}else{
