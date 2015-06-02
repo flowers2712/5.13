@@ -4,7 +4,7 @@ package api03.text.simpleDateFomat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class SimpleDateFomat {
+public class SimpleDateFormatDemo {
 	public static void main(String[] args) {
 	/*
 	 이클립스 제안을 보면
